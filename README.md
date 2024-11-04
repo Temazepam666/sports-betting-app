@@ -1,14 +1,7 @@
-# BET777
-# Sports Betting Prediction App
+# BET777 - Sports Betting Prediction App
 
 ## Project Overview
-This project is aimed at creating an application that uses machine learning to extract information from the web, analyze data in real time, process statistics, and return effective predictions for sports betting with an accuracy of 80-85%. The app will have a chatbot interface managed by AI for user interaction.
-
-## Goals
-- Extract and analyze real-time sports data
-- Process statistics and perform analysis
-- Provide accurate predictions for sports betting
-- Implement a user-friendly chatbot interface
+This project aims to create an application that uses machine learning to extract information from the web, analyze data in real-time, process statistics, and return effective predictions for sports betting with an accuracy of 80-85%. The app includes a chatbot interface managed by AI for user interaction.
 
 ## Setup Instructions
 1. Clone the repository:
@@ -22,16 +15,12 @@ This project is aimed at creating an application that uses machine learning to e
 3. Set up a virtual environment:
     ```bash
     python -m venv venv
-    source venv/bin/activate # On Windows use `venv\Scripts\activate`
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 4. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-
-## Dependencies
-- Python 3.x
-- Required Python packages listed in `requirements.txt`
 
 ## Usage
 1. Run the main application:
