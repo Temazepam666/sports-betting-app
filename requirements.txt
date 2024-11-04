@@ -2,6 +2,7 @@ requests
 beautifulsoup4
 pandas
 scikit-learn
-flask
-flask-restful
 chatterbot
+chatterbot_corpus
+flask
+flask_restful
