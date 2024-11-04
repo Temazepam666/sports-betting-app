@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 class WebScraper:
     def scrape_data(self):
-        url = 'https://example.com/sports-data'  # Replace with actual URL
+        url = 'http://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams'  # Replace with actual URL
         response = requests.get(url)
         if response.status_code != 200:
             raise Exception(f"Failed to fetch data from {url}")
